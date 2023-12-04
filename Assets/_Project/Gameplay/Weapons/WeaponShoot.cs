@@ -60,7 +60,7 @@ namespace Weapons {
 			Vector3 position = new Vector3(bulletSpawnPoint.position.x, bulletSpawnPoint.position.y, 0f);
 			Bullet bullet = GetBullet(position, Vector3.zero);
 
-			var shootSettings = weapon.stats.shootSettings;
+			ShootSettings shootSettings = weapon.stats.shootSettings;
 			float bulletSpeed = weaponTree.bulletSpeed.GetValue(-1);
 			float damage = weaponTree.powerDamage.GetValue(-1);
 			float radius = weaponTree.radius.GetValue(-1);
@@ -70,10 +70,10 @@ namespace Weapons {
 			bool bounce = shootSettings.bounce;
 			bool chaosMode = shootSettings.chaosMode;
 
-			var damageInfo = new DamageInfo(bulletSpeed, damage, singleHit, radius, radiusHitType, radiusDamageMultiplier);
+			DamageInfo damageInfo = new DamageInfo(bulletSpeed, damage, singleHit, radius, radiusHitType, radiusDamageMultiplier);
 			bullet.Initialize(direction, bounce, chaosMode, damageInfo);
 		}
-		
+
 		private protected void CreateEffects() {
 			Global.AudioManager.instance.Play(weaponStats.shootKey);
 
@@ -119,14 +119,21 @@ namespace Weapons {
 		}
 
 		private void ShotgunShoot(ShootSettings shootSettings) {
+			int totalBullets = shootSettings.shotgunAmount;
+
+			if(totalBullets <= 1) {
+				Debug.Log("Shootgun need at least 2! Override with 2.");
+				totalBullets = 2;
+			}
+
 			Vector3 pointA = Vector3.right * -shootSettings.shotgunOffset;
 			Vector3 pointB = Vector3.right * shootSettings.shotgunOffset;
-			float maxSpacing = shootSettings.shotgunOffset / (shootSettings.shotgunAmount / 2);
+			float maxSpacing = shootSettings.shotgunOffset / (totalBullets / 2);
 			float totalLineDistance = Vector3.Distance(pointA, pointB);
 			int numberOfPoints = Mathf.FloorToInt(totalLineDistance / maxSpacing);
 			float actualSpacing = totalLineDistance / numberOfPoints;
 
-			for (int a = 0; a < shootSettings.shotgunAmount; a++) {
+			for (int a = 0; a < totalBullets; a++) {
 				Vector3 point = GetPointOnLine(pointA, pointB, a * actualSpacing / totalLineDistance);
 				Vector3 dir = transform.up + point;
 				CreateBullet(dir);
@@ -137,22 +144,31 @@ namespace Weapons {
 		}
 
 		private void ShotgunBurstShoot(ShootSettings shootSettings) {
+			int totalBullets = shootSettings.shotgunAndBurstAmount;
+
+			if (totalBullets <= 1) {
+				Debug.Log("Shootgun+Burst need at least 2! Override with 2.");
+				totalBullets = 2;
+			}
+
 			Vector3 pointA = Vector3.right * -shootSettings.shotgunAndBurstOffset;
 			Vector3 pointB = Vector3.right * shootSettings.shotgunAndBurstOffset;
-			float maxSpacing = shootSettings.shotgunAndBurstOffset / (shootSettings.shotgunAndBurstAmount / 2);
+			float maxSpacing = shootSettings.shotgunAndBurstOffset / (totalBullets / 2);
 			float totalLineDistance = Vector3.Distance(pointA, pointB);
 			int numberOfPoints = Mathf.FloorToInt(totalLineDistance / maxSpacing);
 			float actualSpacing = totalLineDistance / numberOfPoints;
 
-			for (int a = 0; a < shootSettings.shotgunAndBurstAmount; a++) {
+			for (int a = 0; a < totalBullets; a++) {
 				Vector3 point = GetPointOnLine(pointA, pointB, a * actualSpacing / totalLineDistance);
 				Vector3 dir = transform.up + point;
 				StartCoroutine(Invoker.WaitAndInvoke(() => {
 					CreateBullet(dir);
 					CreateEffects();
 
-					if (a == shootSettings.shotgunAndBurstAmount)
+					if (a == totalBullets) {
 						ResetTimer();
+					}
+
 				}, shootSettings.shotgunAndBurstDelay * a));
 			}
 		}

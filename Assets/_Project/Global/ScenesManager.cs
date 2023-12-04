@@ -30,6 +30,10 @@ namespace Global {
 		private void SetupPresets() {
 			presetsByName = new Dictionary<string, LevelPreset>();
 			for (int a = 0; a < presets.Length; a++) {
+				if (presets[a] == null) {
+					Debug.Log($"Missing preset: {a}");
+					continue;
+				}
 				presetsByName.Add(presets[a].sceneName, presets[a]);
 			}
 		}

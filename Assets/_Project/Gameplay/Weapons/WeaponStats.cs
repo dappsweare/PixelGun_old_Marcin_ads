@@ -66,6 +66,22 @@ namespace Weapons {
 		[SerializeField] public float previewDuration = 3f;
 		[SerializeField] public Ease preivewEase = Ease.InOutQuart;
 
+		private void OnValidate() {
+			if(shootSettings == null) {
+				return;
+			}
+
+			if(shootSettings.shotgunAmount <= 1) {
+				Debug.Log("Shootgun amount (bullets) need at least 2! Override with 2.");
+				shootSettings.shotgunAmount = 2;
+			}
+
+			if (shootSettings.shotgunAndBurstAmount <= 1) {
+				Debug.Log("Shootgun+Burst amount (bullets) need at least 2! Override with 2.");
+				shootSettings.shotgunAndBurstAmount = 2;
+			}
+		}
+
 		public bool ReachedNewVisualUpgrade(int currentLevel) => skin.ReachedNewVisualUpgrade(currentLevel);
 
 		public WeaponUpgrade GetWeaponUpgrade(int currentLevel) => skin.GetWeaponUpgrade(currentLevel);
