@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Pokeball
+  m_EditorClassIdentifier: 
+  sceneName: Level - Pokeball
+  texture: {fileID: 2800000, guid: 47d5628d2afd07643be098995fe2709d, type: 3}
+  levelColors:
+  - pixelColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
+    targetColor: {r: 0, g: 0, b: 0, a: 1}
+  - pixelColor: {r: 0.627451, g: 0.62352943, b: 0.75686276, a: 1}
+    targetColor: {r: 0.627451, g: 0.62352943, b: 0.75686276, a: 1}
+  - pixelColor: {r: 0.96862745, g: 0.96862745, b: 0.96862745, a: 1}
+    targetColor: {r: 0.96862745, g: 0.96862745, b: 0.96862745, a: 1}
+  - pixelColor: {r: 0.2, g: 0.2784314, b: 0.27058825, a: 1}
+    targetColor: {r: 0.2, g: 0.2784314, b: 0.27058825, a: 1}
+  - pixelColor: {r: 0.27450982, g: 0.3137255, b: 0.30980393, a: 1}
+    targetColor: {r: 0.27450982, g: 0.3137255, b: 0.30980393, a: 1}
+  - pixelColor: {r: 0.9647059, g: 0.20784314, b: 0.14901961, a: 1}
+    targetColor: {r: 0.9647059, g: 0.14901958, b: 0.53349, a: 1}
+  - pixelColor: {r: 1, g: 0.50980395, b: 0.47058824, a: 1}
+    targetColor: {r: 1, g: 0.50980395, b: 0.47058824, a: 1}
+  pixelSize: 1
+  pixelScale: 1.5
+  worldScale: 0.5
+  minHealth: 1
+  maxHealth: 1

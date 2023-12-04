@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb86fd06167f214b853b674fbf4c215, type: 3}
+  m_Name: Weapon Minigun 1 - Skins
+  m_EditorClassIdentifier: 
+  weaponStats: {fileID: 11400000, guid: 65a47d4b1bd705e45be4157c1ae7f0ed, type: 2}
+  upgrades:
+  - levelTarget: 295
+    choices:
+    - firstColor: {r: 1, g: 0.2943648, b: 0, a: 1}
+      secondColor: {r: 0.745283, g: 0.2192009, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 4
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 17
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 20
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+    - firstColor: {r: 0.3235879, g: 1, b: 0, a: 1}
+      secondColor: {r: 0.23951167, g: 0.735849, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 4
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 17
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 20
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+  - levelTarget: 305
+    choices:
+    - firstColor: {r: 1, g: 0.2943648, b: 0, a: 1}
+      secondColor: {r: 0.745283, g: 0.2192009, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 0
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 3
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 15
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 16
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 18
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 21
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 22
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 26
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 36
+        meshColor: {r: 0.74509805, g: 0.21960784, b: 0, a: 1}
+      - meshIndex: 5
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 6
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 7
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 8
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 9
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 10
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 11
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 23
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 24
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 28
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 29
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 34
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 35
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 48
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+    - firstColor: {r: 0.3235879, g: 1, b: 0, a: 1}
+      secondColor: {r: 0.23951167, g: 0.735849, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 0
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 3
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 15
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 16
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 18
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 21
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 22
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 26
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 36
+        meshColor: {r: 0.23921569, g: 0.7372549, b: 0, a: 1}
+      - meshIndex: 5
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 6
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 7
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 8
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 9
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 10
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 11
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 23
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 24
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 28
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 29
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 34
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 35
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 48
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+  - levelTarget: 310
+    choices:
+    - firstColor: {r: 1, g: 0.2943648, b: 0, a: 1}
+      secondColor: {r: 0.745283, g: 0.2192009, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 12
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 13
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 19
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 25
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 27
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 37
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 38
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 39
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 40
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 41
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 42
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 43
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 44
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 45
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 46
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+      - meshIndex: 47
+        meshColor: {r: 1, g: 0.29411766, b: 0, a: 1}
+    - firstColor: {r: 0.3235879, g: 1, b: 0, a: 1}
+      secondColor: {r: 0.23951167, g: 0.735849, b: 0, a: 1}
+      modifiers:
+      - meshIndex: 12
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 13
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 19
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 25
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 27
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 37
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 38
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 39
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 40
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 41
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 42
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 43
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 44
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 45
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 46
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}
+      - meshIndex: 47
+        meshColor: {r: 0.3254902, g: 1, b: 0, a: 1}

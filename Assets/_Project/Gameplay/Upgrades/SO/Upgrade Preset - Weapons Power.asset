@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e4f3cb9547205429e2d04e20156046, type: 3}
+  m_Name: Upgrade Preset - Weapons Power
+  m_EditorClassIdentifier: 
+  upgradeType: 2
+  panelDisplayName: 'Power
+
+'
+  cost:
+    initValue: 0
+    multiplierValue: 0
+    decimalPlaces: 0
+  value:
+    initValue: 0
+    multiplierValue: 0
+    decimalPlaces: 0
+    valueRate: 0
+    isMultiplier: 1
+  defaultLevel: 0
+  simpleLevelSystem: 1
+  maxLevel: 77
+  advancedMaxLevel:
+    upgradePreset: {fileID: 0}
+    initValue: 2
+    multiplierValue: 2
+  weaponProgress:
+  - {fileID: 772281524965558747, guid: 836412dae2fcb4e44b3429afbb1e7eb5, type: 3}
+  - {fileID: 533801056684097966, guid: fb67429f3a54d4a91908cc73aa5bf40f, type: 3}
+  - {fileID: 533801056684097966, guid: a2387fc550c4db3499292bcdb6bb6323, type: 3}
+  - {fileID: 3346336752041844654, guid: d1370e4499b2750439ff241ddb9d3c3a, type: 3}
+  - {fileID: 6056386633806100338, guid: 91e415ae514d163469d19111efa387d7, type: 3}
+  - {fileID: 5178682012974875527, guid: 893cc615f2ea9ad49b5f267e08d8d960, type: 3}
+  - {fileID: 8394272249678774281, guid: 3d4ac19f472318440abca7f026d296ea, type: 3}
+  - {fileID: 533801056684097966, guid: e67ba3cfa033e4a9daffdb14d4af75ad, type: 3}
+  - {fileID: 533801056684097966, guid: 6a32ac5e067f43d448f32bc90f22bb02, type: 3}
+  - {fileID: 2879607724219161664, guid: 57bafa60d01d37a4ca6e0fa316ba656b, type: 3}
+  - {fileID: 1628301916879520564, guid: 6096d52263eb917429f4d8c6578d240a, type: 3}
+  - {fileID: 3333045203914670105, guid: 9e812be3f66ffca4a8a2d7e86ba4a307, type: 3}
+  - {fileID: 192291749897530567, guid: 1314826c00d788e4aa20b52db1d65222, type: 3}

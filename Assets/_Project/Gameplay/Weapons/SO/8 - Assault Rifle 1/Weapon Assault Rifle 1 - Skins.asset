@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb86fd06167f214b853b674fbf4c215, type: 3}
+  m_Name: Weapon Assault Rifle 1 - Skins
+  m_EditorClassIdentifier: 
+  weaponStats: {fileID: 11400000, guid: 2c3459bde18e2594aa7498a8808cb5cf, type: 2}
+  upgrades:
+  - levelTarget: 320
+    choices:
+    - firstColor: {r: 0.7176471, g: 0.6666667, b: 0.16470589, a: 1}
+      secondColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      modifiers:
+      - meshIndex: 0
+        meshColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+    - firstColor: {r: 0.6313726, g: 0.65882355, b: 0.8156863, a: 1}
+      secondColor: {r: 0.6313726, g: 0.654902, b: 0.81568635, a: 1}
+      modifiers:
+      - meshIndex: 0
+        meshColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+  - levelTarget: 327
+    choices:
+    - firstColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      secondColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      modifiers:
+      - meshIndex: 1
+        meshColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+    - firstColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      secondColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      modifiers:
+      - meshIndex: 1
+        meshColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+  - levelTarget: 335
+    choices:
+    - firstColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      secondColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      modifiers:
+      - meshIndex: 2
+        meshColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+    - firstColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      secondColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      modifiers:
+      - meshIndex: 2
+        meshColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+  - levelTarget: 342
+    choices:
+    - firstColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      secondColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+      modifiers:
+      - meshIndex: 3
+        meshColor: {r: 0.7176471, g: 0.6666667, b: 0.16078432, a: 1}
+    - firstColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      secondColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+      modifiers:
+      - meshIndex: 3
+        meshColor: {r: 0.6313726, g: 0.6509804, b: 0.81568635, a: 1}
+  - levelTarget: 125
+    choices:
+    - firstColor: {r: 0.15294118, g: 0.23529412, b: 0.45882353, a: 1}
+      secondColor: {r: 0.09803922, g: 0.16470589, b: 0.3372549, a: 1}
+      modifiers:
+      - meshIndex: 4
+        meshColor: {r: 0.15294118, g: 0.23529412, b: 0.45882353, a: 1}
+    - firstColor: {r: 0.9843137, g: 0.77254903, b: 0.19215687, a: 1}
+      secondColor: {r: 0.88235295, g: 0.69411767, b: 0.17254902, a: 1}
+      modifiers:
+      - meshIndex: 4
+        meshColor: {r: 0.9843137, g: 0.77254903, b: 0.19215687, a: 1}

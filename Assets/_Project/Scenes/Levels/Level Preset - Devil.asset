@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Devil
+  m_EditorClassIdentifier: 
+  sceneName: Level - Devil
+  texture: {fileID: 2800000, guid: bcac048dbdeaf1847a2a3316926a4871, type: 3}
+  levelColors:
+  - pixelColor: {r: 0.23137255, g: 0.078431375, b: 0.25882354, a: 1}
+    targetColor: {r: 0.23137255, g: 0.078431375, b: 0.25882354, a: 1}
+  - pixelColor: {r: 0.5803922, g: 0.21960784, b: 0.5568628, a: 1}
+    targetColor: {r: 0.5803922, g: 0.21960784, b: 0.5568628, a: 1}
+  - pixelColor: {r: 0.38431373, g: 0.14117648, b: 0.38039216, a: 1}
+    targetColor: {r: 0.38431373, g: 0.14117648, b: 0.38039216, a: 1}
+  - pixelColor: {r: 0.3372549, g: 0.12156863, b: 0.34901962, a: 1}
+    targetColor: {r: 0.3372549, g: 0.12156863, b: 0.34901962, a: 1}
+  - pixelColor: {r: 0.5803922, g: 0.21960784, b: 0.5647059, a: 1}
+    targetColor: {r: 0.5803922, g: 0.21960784, b: 0.5647059, a: 1}
+  pixelSize: 2
+  pixelScale: 0.6
+  worldScale: 0.5
+  minHealth: 1
+  maxHealth: 1

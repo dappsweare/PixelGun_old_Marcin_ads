@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Happy Face
+  m_EditorClassIdentifier: 
+  sceneName: Level - Happy Face
+  texture: {fileID: 2800000, guid: c891c0a99f0577a48b7e8e522f1a97a1, type: 3}
+  levelColors:
+  - pixelColor: {r: 1, g: 0.84705883, b: 0.11764706, a: 1}
+    targetColor: {r: 1, g: 0.84705883, b: 0.11764706, a: 1}
+  - pixelColor: {r: 1, g: 0.09019608, b: 0.03137255, a: 1}
+    targetColor: {r: 1, g: 0.09019608, b: 0.03137255, a: 1}
+  - pixelColor: {r: 1, g: 1, b: 1, a: 1}
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+  - pixelColor: {r: 0.43137255, g: 0.19607843, b: 0.3372549, a: 1}
+    targetColor: {r: 0.43137255, g: 0.19607843, b: 0.3372549, a: 1}
+  pixelSize: 3
+  pixelScale: 0.75
+  worldScale: 0.5
+  minHealth: 1
+  maxHealth: 1

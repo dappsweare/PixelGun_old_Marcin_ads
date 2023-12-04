@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7df4a8bb4f021e48984a1f0247a45c6, type: 3}
+  m_Name: Upgrade Preset - Speed
+  m_EditorClassIdentifier: 
+  upgradeType: 1
+  panelDisplayName: 'Speed
+
+'
+  cost:
+    initValue: 0
+    multiplierValue: 0
+    decimalPlaces: 0
+  value:
+    initValue: 0
+    multiplierValue: 0
+    decimalPlaces: 0
+    valueRate: 0
+    isMultiplier: 1
+  defaultLevel: 1
+  simpleLevelSystem: 1
+  maxLevel: 125
+  advancedMaxLevel:
+    upgradePreset: {fileID: 11400000, guid: dfbbc5549064bbd4ab844ab0d47ea3b9, type: 2}
+    initValue: 1
+    multiplierValue: 1

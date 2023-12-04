@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca46d4d9ef91ec4e93e13a7a331f44f, type: 3}
+  m_Name: Weapon Pistol 3 - Stats
+  m_EditorClassIdentifier: 
+  minLevel: 42
+  maxLevel: 47
+  shootKey: 4
+  tree: {fileID: 11400000, guid: 6a2ead1e4629e4e49b7b07ed55332e6e, type: 2}
+  skin: {fileID: 11400000, guid: 865940f0488bd8748a9b6d081b10a506, type: 2}
+  speedUpgrade: {fileID: 11400000, guid: d7a382ab4daa55c409847fadf3e68315, type: 2}
+  shootSettings:
+    shootType: 1
+    singleHit: 1
+    burstDelay: 0.1
+    burstAmount: 20
+    shotgunAmount: 3
+    shotgunOffset: 0.1
+    shotgunAndBurstAmount: 3
+    shotgunAndBurstDelay: 0.2
+    shotgunAndBurstOffset: 0.1
+  bulletPrefab: {fileID: 142536641500190135, guid: 47d934b9956464c059fffb8f384f1d38, type: 3}
+  spawnPosition: {x: 0, y: 1.75, z: 0}
+  spawnEuler: {x: 0, y: 0, z: 0}
+  cameraPosition: {x: 0.2, y: -1.8, z: 0}
+  cameraSize: 9
+  previewBy: {x: 10, y: 0, z: 0}
+  previewDuration: 3
+  preivewEase: 13

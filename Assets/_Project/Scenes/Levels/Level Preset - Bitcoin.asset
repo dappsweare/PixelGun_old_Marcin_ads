@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Bitcoin
+  m_EditorClassIdentifier: 
+  sceneName: Level - Bitcoin
+  texture: {fileID: 2800000, guid: def02fb552ecb024c8b117a9dd0c479e, type: 3}
+  levelColors:
+  - pixelColor: {r: 0.99215686, g: 0.68235296, b: 0.20784314, a: 1}
+    targetColor: {r: 0.99215686, g: 0.68235296, b: 0.20784314, a: 1}
+  - pixelColor: {r: 0.7490196, g: 0.28235295, b: 0.1882353, a: 1}
+    targetColor: {r: 0.7490196, g: 0.28235295, b: 0.1882353, a: 1}
+  - pixelColor: {r: 1, g: 0.8509804, b: 0.2627451, a: 1}
+    targetColor: {r: 1, g: 0.8509804, b: 0.2627451, a: 1}
+  pixelSize: 2
+  pixelScale: 0.85
+  worldScale: 0.85
+  minHealth: 1
+  maxHealth: 1

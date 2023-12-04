@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca46d4d9ef91ec4e93e13a7a331f44f, type: 3}
+  m_Name: Weapon Shotgun 1 - Stats
+  m_EditorClassIdentifier: 
+  minLevel: 36
+  maxLevel: 41
+  shootKey: 2
+  tree: {fileID: 11400000, guid: 7260b1f94f0cccd429dcb690c05d1106, type: 2}
+  skin: {fileID: 11400000, guid: ee2269e862733794ca65478e2564d741, type: 2}
+  speedUpgrade: {fileID: 11400000, guid: d7a382ab4daa55c409847fadf3e68315, type: 2}
+  shootSettings:
+    bounce: 0
+    chaosMode: 0
+    singleHit: 0
+    radiusHitType: 1
+    radiusDamageMultiplier: {x: 1, y: 0.5}
+    shootType: 2
+    burstDelay: 0.2
+    burstAmount: 3
+    shotgunAmount: 2
+    shotgunOffset: 0.2
+    shotgunAndBurstAmount: 3
+    shotgunAndBurstDelay: 0.2
+    shotgunAndBurstOffset: 0.1
+  bulletPrefab: {fileID: 142536641500190135, guid: a56c427e6a6ea4ea5979af2a6dc76ecb, type: 3}
+  spawnPosition: {x: 0, y: 6.5, z: 0}
+  spawnEuler: {x: 0, y: 0, z: 0}
+  cameraPosition: {x: 0, y: 0, z: 0}
+  cameraSize: 9
+  previewBy: {x: 10, y: 0, z: 0}
+  previewDuration: 3
+  preivewEase: 13

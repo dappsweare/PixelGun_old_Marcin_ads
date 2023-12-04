@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Poop
+  m_EditorClassIdentifier: 
+  sceneName: Level - Poop
+  texture: {fileID: 2800000, guid: ccee1ff52cb5caa48be7a9313e222a79, type: 3}
+  levelColors:
+  - pixelColor: {r: 0, g: 0, b: 0, a: 1}
+    targetColor: {r: 0, g: 0, b: 0, a: 1}
+  - pixelColor: {r: 0.87058824, g: 0.54901963, b: 0.23921569, a: 1}
+    targetColor: {r: 0.87058824, g: 0.54901963, b: 0.23921569, a: 1}
+  - pixelColor: {r: 0.9764706, g: 0.6313726, b: 1, a: 1}
+    targetColor: {r: 0.9764706, g: 0.6313726, b: 1, a: 1}
+  - pixelColor: {r: 1, g: 1, b: 1, a: 1}
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+  pixelSize: 1
+  pixelScale: 1.55
+  worldScale: 0.8
+  minHealth: 1
+  maxHealth: 1

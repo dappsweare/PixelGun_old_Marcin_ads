@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1b7bf7bf662b4e9c515d47e16eea5, type: 3}
+  m_Name: Level Preset - Mobile Phone
+  m_EditorClassIdentifier: 
+  sceneName: Level - Mobile Phone
+  texture: {fileID: 2800000, guid: b34ae7d9db9fcd74bb1244ca68fdd3b4, type: 3}
+  levelColors:
+  - pixelColor: {r: 0, g: 0, b: 0, a: 1}
+    targetColor: {r: 0, g: 0, b: 0, a: 1}
+  - pixelColor: {r: 0.9254902, g: 0.54509807, b: 0.7294118, a: 1}
+    targetColor: {r: 0.9254902, g: 0.54509807, b: 0.7294118, a: 1}
+  - pixelColor: {r: 0.36078432, g: 0.21176471, b: 0.28235295, a: 1}
+    targetColor: {r: 0.36078432, g: 0.21176471, b: 0.28235295, a: 1}
+  - pixelColor: {r: 0, g: 0.30980393, b: 0.6745098, a: 1}
+    targetColor: {r: 0, g: 0.30980393, b: 0.6745098, a: 1}
+  - pixelColor: {r: 1, g: 1, b: 1, a: 1}
+    targetColor: {r: 1, g: 1, b: 1, a: 1}
+  pixelSize: 2
+  pixelScale: 1
+  worldScale: 0.5
+  minHealth: 1
+  maxHealth: 1

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Burger.unity
+    guid: fd03994509b715c418e351f1e2581e0a
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Cool Guy.unity
+    guid: e6fb2eccf9ff0c447933336507ebb45c
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Frog.unity
+    guid: eb3985c796eacb04798b2ddbb09053a6
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Mushroom.unity
+    guid: a0676009c3b8ffc48a9696e861499aee
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Bitcoin.unity
+    guid: fc5559f19ce974645a3d760508a08502
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Avocado.unity
+    guid: c6d618af75083461db20522b71737b87
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Dragon Ball.unity
+    guid: 810e1a8cb4cb4e24f8b9792e9cb42501
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Eggplant.unity
+    guid: d9c3e6740eb8bdf46baced98220b18fa
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Hagi.unity
+    guid: 1d0ed4dc9863feb4c86ac4f8d4422c3a
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Hamster.unity
+    guid: e41254df07262ae418dfc12d51f1b284
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Happy Face.unity
+    guid: 3dcd3e7e9a5d1c94c85ad8d6c77fd8f7
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Icecream.unity
+    guid: 5883d70c486bc9c4a81e70faa90d563d
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Lolipop.unity
+    guid: 1f9d6622b4261a4479f82cd389539034
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Minion.unity
+    guid: c051ecd2cf572f84bba6f44a8c31be1b
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Piggy.unity
+    guid: 2dfd4c1f92c517b48bd2fc1309fd53c7
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Pokeball.unity
+    guid: ac4339262f9d9874b850928fb10a7fde
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Poop.unity
+    guid: e2fd00c5fe4977042804d749e279f7d3
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Mario.unity
+    guid: 77f7d9655bfbbd544af59710e2a28d97
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Gift.unity
+    guid: 0efa1fae202a3e849b2dacf4f3b39724
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Guitar.unity
+    guid: 7af3a20b0a9e86248b8538bfa11ab91c
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Heart.unity
+    guid: 6deac11535b58c446865a32d603f0963
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Mobile Phone.unity
+    guid: 7ea7b72a6b08ce44c8fbe718d320db49
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Pixelcraft.unity
+    guid: 5d2778c457b8c6d49b5a120bfb9f82a7
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Rainbow.unity
+    guid: 155773bf2104b4041ae0b4350a190815
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Startup.unity
+    guid: d1583b418e314dd42b2e84f100faa32e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Tnt.unity
+    guid: 6dc7a54a3199c2c4089f28ce4b8d1529
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Trophy.unity
+    guid: 4a27218c5a316a54cb6ec73b011dc83b
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level - Devil.unity
+    guid: 9da47d6ef3c4f704185f4fb0d1b3c508
+  m_configObjects: {}
